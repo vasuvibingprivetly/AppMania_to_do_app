@@ -110,7 +110,6 @@ class _HomePageState extends State<HomePage> {
               leading: const Icon(Icons.exit_to_app),
               title: const Text('Logout'),
               onTap: () {
-                // Implement logout functionality
               },
             ),
           ],
@@ -223,7 +222,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   GestureDetector(
                     child: Container(
-                      width: 50, // Add width here
+                      width: 50, 
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         color: Colors.white,
@@ -243,7 +242,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   GestureDetector(
                     child: Container(
-                      width: 50, // Add width here
+                      width: 50,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         color: Colors.white,
