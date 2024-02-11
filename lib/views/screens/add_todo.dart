@@ -7,7 +7,7 @@ Widget todoCard({
   required BuildContext context,
 }) {
   return Container(
-    height: 180, // Adjusted height
+    height: 180, 
     margin: const EdgeInsets.all(10),
     decoration: BoxDecoration(
       color: Colors.white,
@@ -48,13 +48,13 @@ Widget todoCard({
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              border: Border.all(color: Colors.blueAccent), // Add border
+              border: Border.all(color: Colors.blueAccent), 
               borderRadius: BorderRadius.circular(10),
             ),
             child: Text(
               'User ID: ${allTodos[index]['userId']}',
               style: TextStyle(
-                fontSize: 16, // Increased font size
+                fontSize: 16, 
                 color: Colors.blueAccent,
                 fontWeight: FontWeight.bold,
               ),
