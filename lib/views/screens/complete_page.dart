@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import '../../utils/all_data.dart';
-import 'add_todo.dart'; // Import your data here
+import 'add_todo.dart'; 
 
 class CompletedTodoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
-    // Filter completed todos
     List<Map<String, dynamic>> completedTodos =
     allTodos.where((todo) => todo['completed'] == true).toList();
 
