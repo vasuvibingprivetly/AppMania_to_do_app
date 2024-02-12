@@ -6,7 +6,7 @@ import '../../utils/calender.dart';
 import '../components/3_container.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 16.0),
             child: Text(
-              'Stay organized and productive!',
+              'Stay organized and be productive!',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.white70,
